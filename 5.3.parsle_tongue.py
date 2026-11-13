@@ -29,7 +29,7 @@ def parsle_tongue(file_path: str) -> Generator[str, None, None]:
 
 
 if __name__ == '__main__':
-    logo_path = "resources/logo.jpg"
+    logo_path = "resources/logo.jpg
 
     for secret_msg in parsle_tongue(logo_path):
         print("Found secret message:", secret_msg)
